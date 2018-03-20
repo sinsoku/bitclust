@@ -1,0 +1,41 @@
+PATH
+  remote: .
+  specs:
+    bitclust-core (1.2.0)
+      progressbar (= 0.21.0)
+      rack
+    bitclust-dev (1.2.0)
+      bitclust-core (= 1.2.0)
+    refe2 (1.2.0)
+      bitclust-core (= 1.2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    power_assert (1.1.1)
+    progressbar (0.21.0)
+    rack (2.0.4)
+    rake (12.3.0)
+    rr (1.2.1)
+    test-unit (3.2.7)
+      power_assert
+    test-unit-notify (1.0.4)
+      test-unit (>= 2.4.9)
+    test-unit-rr (1.0.5)
+      rr (>= 1.1.1)
+      test-unit (>= 2.5.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bitclust-core!
+  bitclust-dev!
+  rake
+  refe2!
+  test-unit (>= 2.3.0)
+  test-unit-notify
+  test-unit-rr
+
+BUNDLED WITH
+   1.16.1
